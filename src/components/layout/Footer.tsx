@@ -33,13 +33,17 @@ const Footer = () => {
           {/* Contact */}
           <div>
             <h3 className="text-sm font-medium mb-3 md:mb-4 tracking-wide text-charcoal">Contact</h3>
-            <div className="space-y-2 text-xs md:text-sm text-charcoal/80">
-              <p>Phone: <a href="tel:+61478410069" className="hover:text-brown transition-colors duration-200">+61 (0) 478 410 069</a></p>
-              <p>Email: <a href="mailto:studioapril004@gmail.com" className="hover:text-brown transition-colors duration-200 break-words">studioapril004@gmail.com</a></p>
-              <p className="leading-relaxed">
-                Address: Level 1, 68 Mollison St,<br />
-                Abbotsford, VIC 3067
-              </p>
+            <div className="space-y-3 text-xs md:text-sm text-charcoal/80">
+              <div>
+                <p className="font-medium mb-1">Emporium Melbourne</p>
+                <p className="leading-relaxed">Store 305A/287 Lonsdale St<br />Melbourne VIC 3000</p>
+                <p><a href="tel:0386098111" className="hover:text-brown transition-colors duration-200">(03) 8609 8111</a></p>
+              </div>
+              <div>
+                <p className="font-medium mb-1">QV Melbourne</p>
+                <p className="leading-relaxed">236-238 Lonsdale St<br />Melbourne VIC 3000</p>
+                <p><a href="tel:0399137662" className="hover:text-brown transition-colors duration-200">(03) 9913 7662</a></p>
+              </div>
             </div>
           </div>
 
@@ -47,7 +51,7 @@ const Footer = () => {
           <div>
             <h3 className="text-sm font-medium mb-3 md:mb-4 tracking-wide text-charcoal">Social</h3>
             <a
-              href="https://www.instagram.com/studio.april_?igsh=MWU2M3dubjlnamk3NA%3D%3D&utm_source=qr"
+              href="https://www.instagram.com/goddessofnailsandbeauty/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-charcoal/80 hover:text-brown transition-all duration-200 hover:scale-105"

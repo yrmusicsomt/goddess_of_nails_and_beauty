@@ -7,7 +7,7 @@ const Header = () => {
   const location = useLocation();
 
   const handleBooking = () => {
-    window.open('https://www.fresha.com/a/studio-april-melbourne-68-mollison-street-pm249xrk/booking', '_blank');
+    window.open('https://www.fresha.com/lvp/goddess-of-nails-beauty-lonsdale-street-melbourne-JQlWq4', '_blank');
   };
 
   const isActive = (path: string) => location.pathname === path;
@@ -50,18 +50,26 @@ const Header = () => {
               About us
             </Link>
             <Link
+              to="/gallery"
+              className={`text-charcoal transition-all duration-200 text-sm lg:text-base relative pb-1 ${
+                isActive('/gallery') ? 'after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:bg-charcoal' : 'hover:text-brown'
+              }`}
+            >
+              Gallery
+            </Link>
+            <Link
               to="/contact"
               className={`text-charcoal transition-all duration-200 text-sm lg:text-base relative pb-1 ${
                 isActive('/contact') ? 'after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:bg-charcoal' : 'hover:text-brown'
               }`}
             >
-              Blog
+              Contact
             </Link>
             <button
               onClick={handleBooking}
               className="px-6 lg:px-8 py-2.5 bg-brown text-cream rounded-full hover:bg-brown/90 transition-all duration-300 text-sm lg:text-base font-normal"
             >
-              Contact Us
+              Booking
             </button>
           </nav>
 
@@ -106,19 +114,28 @@ const Header = () => {
               About us
             </Link>
             <Link
+              to="/gallery"
+              className={`text-charcoal hover:text-brown transition-all duration-200 text-sm ${
+                isActive('/gallery') ? 'font-medium border-l-2 border-charcoal pl-2' : ''
+              }`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Gallery
+            </Link>
+            <Link
               to="/contact"
               className={`text-charcoal hover:text-brown transition-all duration-200 text-sm ${
                 isActive('/contact') ? 'font-medium border-l-2 border-charcoal pl-2' : ''
               }`}
               onClick={() => setIsMenuOpen(false)}
             >
-              Blog
+              Contact
             </Link>
             <button
               onClick={handleBooking}
               className="px-6 py-2.5 bg-brown text-cream rounded-full hover:bg-brown/90 transition-all duration-300 text-center text-sm mt-2"
             >
-              Contact Us
+              Booking
             </button>
           </nav>
         )}

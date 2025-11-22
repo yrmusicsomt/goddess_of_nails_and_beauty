@@ -5,7 +5,7 @@ import g2 from '../assets/images/g2.webp';
 import g3 from '../assets/images/g3.webp';
 import g4 from '../assets/images/g4.webp';
 import g6 from '../assets/images/g6.webp';
-import g8 from '../assets/images/g8.webp';
+import g7 from '../assets/images/g7.webp';
 import nailPolish1 from '../assets/images/nail-polish-1.png';
 import nailPolish2 from '../assets/images/nail-polish-2.png';
 import nailPolish3 from '../assets/images/nail-polish-3.png';
@@ -13,6 +13,7 @@ import nailPolish4 from '../assets/images/nail-polish-4.png';
 import glitter from '../assets/images/glitter.png';
 import glitter2 from '../assets/images/glitter2.png';
 import nailpic5 from '../assets/images/nailpic5.png';
+import bannerpic1 from '../assets/images/bannerpic1.png';
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
   whileInView: { opacity: 1, y: 0 },
@@ -283,7 +284,7 @@ const Home = () => {
               {/* Large left image */}
               <div className="col-span-1 row-span-2">
                 <img
-                  src={g8}
+                  src={g7}
                   alt="Professional Nail Services"
                   className="w-full h-full object-cover rounded-3xl"
                 />
@@ -566,9 +567,9 @@ const Home = () => {
               {/* Main image */}
               <div className="relative">
                 <img
-                  src={nailpic5}
+                  src={bannerpic1}
                   alt="Nail Treatment"
-                  className="w-full h-auto object-cover rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
+                  className="w-full h-auto object-cover shadow-lg transition-transform duration-300 hover:scale-105"
                 />
               </div>
             </motion.div>
@@ -593,7 +594,7 @@ const Home = () => {
             whileInView="whileInView"
             viewport={{ once: true, margin: "-100px" }}
           >
-            {/* Review 1 - J'aime Dawson */}
+            {/* Review 1 - Ruchita Sharma */}
             <motion.div
               className="bg-white rounded-lg shadow-md p-6 md:p-8 hover:shadow-xl transition-shadow duration-300"
               variants={staggerItem}
@@ -602,11 +603,11 @@ const Home = () => {
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-full bg-brown/20 flex items-center justify-center">
-                    <span className="text-brown font-medium text-lg">J</span>
+                    <span className="text-brown font-medium text-lg">R</span>
                   </div>
                   <div>
-                    <h3 className="font-medium text-charcoal">J'aime Dawson</h3>
-                    <p className="text-xs text-charcoal/60">2 days ago</p>
+                    <h3 className="font-medium text-charcoal">Ruchita Sharma</h3>
+                    <p className="text-xs text-charcoal/60">4 months ago</p>
                   </div>
                 </div>
                 <div className="flex gap-1">
@@ -616,21 +617,11 @@ const Home = () => {
                 </div>
               </div>
               <p className="text-charcoal/80 leading-relaxed text-sm md:text-base mb-3">
-                The best pedicure I have ever experienced. I was on the verge of falling asleep! The experience was incredible, I'm never going anywhere else.
+                So gappy with my freshly done nails! Would recommend to everyone. Karen was so lovely and had so much attention yo detail while doing my nails!
               </p>
-              <p className="text-charcoal/80 leading-relaxed text-sm md:text-base mb-3">
-                I was greeted into a private studio with a variety of snacks and refreshments to enjoy during the appointment. To top off the experience I was set up with netflix in hand, a plush warm blanket whilst lying back on one of the most lavish salon chairs... it felt like a bed.
-              </p>
-              <p className="text-charcoal/80 leading-relaxed text-sm md:text-base mb-2">
-                Also my pedicure looks and feels wonderful
-              </p>
-              <p className="text-charcoal/70 text-sm">😍 I'm obsessed 😍</p>
-              <div className="mt-4 pt-4 border-t border-charcoal/10">
-                <p className="text-xs text-charcoal/60">Service: Pedicure</p>
-              </div>
             </motion.div>
 
-            {/* Review 2 - Suttida Gift */}
+            {/* Review 2 - Kimi singh */}
             <motion.div
               className="bg-white rounded-lg shadow-md p-6 md:p-8 hover:shadow-xl transition-shadow duration-300"
               variants={staggerItem}
@@ -639,11 +630,11 @@ const Home = () => {
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-full bg-brown/20 flex items-center justify-center">
-                    <span className="text-brown font-medium text-lg">S</span>
+                    <span className="text-brown font-medium text-lg">K</span>
                   </div>
                   <div>
-                    <h3 className="font-medium text-charcoal">Suttida Gift</h3>
-                    <p className="text-xs text-charcoal/60">4 days ago</p>
+                    <h3 className="font-medium text-charcoal">Kimi singh</h3>
+                    <p className="text-xs text-charcoal/60">12 months ago</p>
                   </div>
                 </div>
                 <div className="flex gap-1">
@@ -653,19 +644,15 @@ const Home = () => {
                 </div>
               </div>
               <p className="text-charcoal/80 leading-relaxed text-sm md:text-base mb-4">
-                I've got this beautiful nails and my eyebrows done from Kim. She's very precise and perfectionist for her work. And it was lovely and comfy space there. Highly recommended!!!!
+                Got My nails don't by Tracy , she's so lovely and 10/10 professional. I had a deep cut on my thumb but she didn't make me feel a thing . It was my first visit but I will keep coming. Thank you beautiful.
               </p>
-              <div className="mt-4 pt-4 border-t border-charcoal/10">
-                <p className="text-xs text-charcoal/60 mb-1">Services: Eyebrow shaping, Waxing, Brow lamination, Manicure</p>
-                <p className="text-xs text-charcoal/60">Stylist: Kim</p>
-              </div>
             </motion.div>
           </motion.div>
 
           {/* Google Reviews Link */}
           <motion.div className="text-center mt-10" {...fadeInUp}>
             <a
-              href="https://www.google.com/search?sca_esv=d8140a1b87a5a1ad&sxsrf=AE3TifPvEjzVe8HRkPYK4118PO8Kvn-mTA:1763508889329&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E6dPnPZ2qWOOQ6_chNPr93TRoAkIXAdgtkDKFg-S6eRJFY2dnuZzRCnUCx3skjeG7MSvaNTByA97rnqNboQJBW4zyXIcLzxRDLPlYz6PU4G5loHsMg%3D%3D&q=Studio+April+B%C3%A0i+%C4%91%C3%A1nh+gi%C3%A1&sa=X&ved=2ahUKEwjkoaDH7vyQAxV_oGMGHfZPAIUQ0bkNegQINBAE&biw=1548&bih=968&dpr=1"
+              href="https://www.google.com/search?q=goddess+of+nails+and+beauty&lqi=Chtnb2RkZXNzIG9mIG5haWxzIGFuZCBiZWF1dHlIssX6-KqqgIAIWjUQABABEAIQAxAEGAAYARgCGAMYBCIbZ29kZGVzcyBvZiBuYWlscyBhbmQgYmVhdXR5MgJlbpIBDGJlYXV0eV9zYWxvbqoBQxABMh4QASIa3PchGJ_7WyQ4IqhTQ8GrSuIvKyOI8erZs4oyHxACIhtnb2RkZXNzIG9mIG5haWxzIGFuZCBiZWF1dHk#lkt=LocalPoiReviews"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-brown hover:text-brown/80 transition-colors duration-200 text-sm md:text-base"

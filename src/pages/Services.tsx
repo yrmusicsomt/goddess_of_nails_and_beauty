@@ -9,7 +9,7 @@ const fadeInUp = {
 
 const Services = () => {
   const handleBooking = () => {
-    window.open('https://www.fresha.com/a/studio-april-melbourne-68-mollison-street-pm249xrk/booking', '_blank');
+    window.open('https://www.fresha.com/lvp/goddess-of-nails-beauty-lonsdale-street-melbourne-JQlWq4', '_blank');
   };
 
   return (
@@ -19,7 +19,7 @@ const Services = () => {
         <div className="max-w-5xl mx-auto px-6 lg:px-12">
           {/* Header */}
           <motion.div className="text-center mb-12" {...fadeInUp}>
-            <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">STUDIO APRIL</h1>
+            <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">GODDESS OF NAILS AND BEAUTY</h1>
             <h2 className="text-4xl md:text-5xl font-light italic mb-4" style={{ fontFamily: 'Georgia, serif' }}>
               Manicure
             </h2>
@@ -337,7 +337,7 @@ const Services = () => {
         <div className="max-w-5xl mx-auto px-6 lg:px-12">
           {/* Header */}
           <motion.div className="text-center mb-12" {...fadeInUp}>
-            <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">STUDIO APRIL</h1>
+            <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">GODDESS OF NAILS AND BEAUTY</h1>
             <h2 className="text-4xl md:text-5xl font-light italic mb-4" style={{ fontFamily: 'Georgia, serif' }}>
               Pedicure
             </h2>
@@ -410,7 +410,7 @@ const Services = () => {
         <div className="max-w-5xl mx-auto px-6 lg:px-12">
           {/* Header */}
           <motion.div className="text-center mb-12" {...fadeInUp}>
-            <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">STUDIO APRIL</h1>
+            <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">GODDESS OF NAILS AND BEAUTY</h1>
             <h2 className="text-4xl md:text-5xl font-light italic mb-4" style={{ fontFamily: 'Georgia, serif' }}>
               Brows
             </h2>
@@ -486,7 +486,7 @@ const Services = () => {
         <div className="max-w-5xl mx-auto px-6 lg:px-12">
           {/* Header */}
           <motion.div className="text-center mb-12" {...fadeInUp}>
-            <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">STUDIO APRIL</h1>
+            <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">GODDESS OF NAILS AND BEAUTY</h1>
             <h2 className="text-4xl md:text-5xl font-light italic mb-4" style={{ fontFamily: 'Georgia, serif' }}>
               Lashes
             </h2>
@@ -545,7 +545,7 @@ const Services = () => {
         <div className="max-w-6xl mx-auto px-6 lg:px-12">
           {/* Header */}
           <motion.div className="text-center mb-12" {...fadeInUp}>
-            <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">STUDIO APRIL</h1>
+            <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">GODDESS OF NAILS AND BEAUTY</h1>
             <h2 className="text-4xl md:text-5xl font-light italic mb-4" style={{ fontFamily: 'Georgia, serif' }}>
               Face Waxing
             </h2>
