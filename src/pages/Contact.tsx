@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import nailpic6 from '../assets/images/nailpic6.png';
 
 const fadeInUp = {
