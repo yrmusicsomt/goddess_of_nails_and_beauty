@@ -21,8 +21,11 @@ const Footer = () => {
               <Link to="/about" className="text-charcoal/80 hover:text-brown transition-all duration-200 text-sm hover:translate-x-1">
                 About
               </Link>
-              <Link to="/services" className="text-charcoal/80 hover:text-brown transition-all duration-200 text-sm hover:translate-x-1">
-                Services
+              <Link to="/price-list" className="text-charcoal/80 hover:text-brown transition-all duration-200 text-sm hover:translate-x-1">
+                Price List
+              </Link>
+              <Link to="/nail-service-options" className="text-charcoal/80 hover:text-brown transition-all duration-200 text-sm hover:translate-x-1">
+                Service Options
               </Link>
               <Link to="/contact" className="text-charcoal/80 hover:text-brown transition-all duration-200 text-sm hover:translate-x-1">
                 Contact

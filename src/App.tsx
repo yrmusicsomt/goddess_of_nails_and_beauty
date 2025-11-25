@@ -4,6 +4,8 @@ import Footer from './components/layout/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
+import PriceList from './pages/PriceList';
+import NailServiceOptions from './pages/NailServiceOptions';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import SalonPolicy from './pages/SalonPolicy';
@@ -18,6 +20,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/price-list" element={<PriceList />} />
+            <Route path="/nail-service-options" element={<NailServiceOptions />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/salon-policy" element={<SalonPolicy />} />

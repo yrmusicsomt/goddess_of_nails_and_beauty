@@ -34,12 +34,20 @@ const Header = () => {
               Home
             </Link>
             <Link
-              to="/services"
+              to="/price-list"
               className={`text-charcoal transition-all duration-200 text-sm lg:text-base relative pb-1 ${
-                isActive('/services') ? 'after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:bg-charcoal' : 'hover:text-brown'
+                isActive('/price-list') ? 'after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:bg-charcoal' : 'hover:text-brown'
               }`}
             >
-              Services
+              Price List
+            </Link>
+            <Link
+              to="/nail-service-options"
+              className={`text-charcoal transition-all duration-200 text-sm lg:text-base relative pb-1 ${
+                isActive('/nail-service-options') ? 'after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:bg-charcoal' : 'hover:text-brown'
+              }`}
+            >
+              Service Options
             </Link>
             <Link
               to="/about"
@@ -96,13 +104,22 @@ const Header = () => {
               Home
             </Link>
             <Link
-              to="/services"
+              to="/price-list"
               className={`text-charcoal hover:text-brown transition-all duration-200 text-sm ${
-                isActive('/services') ? 'font-medium border-l-2 border-charcoal pl-2' : ''
+                isActive('/price-list') ? 'font-medium border-l-2 border-charcoal pl-2' : ''
               }`}
               onClick={() => setIsMenuOpen(false)}
             >
-              Services
+              Price List
+            </Link>
+            <Link
+              to="/nail-service-options"
+              className={`text-charcoal hover:text-brown transition-all duration-200 text-sm ${
+                isActive('/nail-service-options') ? 'font-medium border-l-2 border-charcoal pl-2' : ''
+              }`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Service Options
             </Link>
             <Link
               to="/about"
