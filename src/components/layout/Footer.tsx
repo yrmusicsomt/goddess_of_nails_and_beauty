@@ -66,8 +66,7 @@ const Footer = () => {
         <div className="border-t border-charcoal/20 pt-5 md:pt-6 flex flex-col md:flex-row justify-between items-center text-xs md:text-sm text-charcoal/70">
           <p>Copyright © {new Date().getFullYear()} Goddess of Nails and Beauty</p>
           <div className="flex gap-4 md:gap-6 mt-3 md:mt-0">
-            <a href="#" className="hover:text-brown transition-colors duration-200">Terms of Use</a>
-            <a href="#" className="hover:text-brown transition-colors duration-200">Privacy Policy</a>
+            <Link to="/salon-policy" className="hover:text-brown transition-colors duration-200">Salon Policy</Link>
           </div>
         </div>
       </div>
