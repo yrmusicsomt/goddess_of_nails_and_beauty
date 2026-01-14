@@ -9,16 +9,41 @@ const fadeInUp = {
 
 const PriceList = () => {
   const handleBooking = () => {
-    window.open('https://www.fresha.com/lvp/goddess-of-nails-beauty-lonsdale-street-melbourne-JQlWq4', '_blank');
+    window.open('https://www.instagram.com/goddessofnailsandbeauty/', '_blank');
   };
 
   return (
     <div className="pt-16 md:pt-20 bg-cream">
-      {/* Waxing Section */}
+      {/* Manicure Section */}
       <section className="py-12 md:py-16">
         <div className="max-w-5xl mx-auto px-6 lg:px-12">
           <motion.div className="text-center mb-12" {...fadeInUp}>
             <h1 className="text-2xl md:text-3xl font-light tracking-widest mb-2">GODDESS OF NAILS AND BEAUTY</h1>
+            <h2 className="text-4xl md:text-5xl font-light italic mb-4" style={{ fontFamily: 'Georgia, serif' }}>
+              Manicure
+            </h2>
+            <div className="w-full h-px bg-charcoal/30 mb-8"></div>
+          </motion.div>
+
+          <motion.div className="space-y-6" {...fadeInUp}>
+            {[
+              { name: 'Clear Manicure', price: 25 },
+              { name: 'Deluxe Manicure', price: 35 },
+              { name: 'Gel Polish Manicure (incl. soak off)', price: 50 },
+            ].map((service, index) => (
+              <div key={index} className="flex justify-between items-center border-b border-charcoal/10 pb-4">
+                <h4 className="text-base md:text-lg font-medium">{service.name.toUpperCase()}</h4>
+                <p className="text-lg font-medium">${service.price}</p>
+              </div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Waxing Section */}
+      <section className="py-12 md:py-16 border-t border-charcoal/10">
+        <div className="max-w-5xl mx-auto px-6 lg:px-12">
+          <motion.div className="text-center mb-12" {...fadeInUp}>
             <h2 className="text-4xl md:text-5xl font-light italic mb-4" style={{ fontFamily: 'Georgia, serif' }}>
               Silky Smooth Waxing
             </h2>
@@ -77,31 +102,6 @@ const PriceList = () => {
                 </div>
               ))}
             </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Manicure Section */}
-      <section className="py-12 md:py-16 border-t border-charcoal/10">
-        <div className="max-w-5xl mx-auto px-6 lg:px-12">
-          <motion.div className="text-center mb-12" {...fadeInUp}>
-            <h2 className="text-4xl md:text-5xl font-light italic mb-4" style={{ fontFamily: 'Georgia, serif' }}>
-              Manicure
-            </h2>
-            <div className="w-full h-px bg-charcoal/30 mb-8"></div>
-          </motion.div>
-
-          <motion.div className="space-y-6" {...fadeInUp}>
-            {[
-              { name: 'Clear Manicure', price: 25 },
-              { name: 'Deluxe Manicure', price: 35 },
-              { name: 'Gel Polish Manicure (incl. soak off)', price: 50 },
-            ].map((service, index) => (
-              <div key={index} className="flex justify-between items-center border-b border-charcoal/10 pb-4">
-                <h4 className="text-base md:text-lg font-medium">{service.name.toUpperCase()}</h4>
-                <p className="text-lg font-medium">${service.price}</p>
-              </div>
-            ))}
           </motion.div>
         </div>
       </section>

@@ -10,7 +10,7 @@ const fadeInUp = {
 
 const NailServiceOptions = () => {
   const handleBooking = () => {
-    window.open('https://www.fresha.com/lvp/goddess-of-nails-beauty-lonsdale-street-melbourne-JQlWq4', '_blank');
+    window.open('https://www.instagram.com/goddessofnailsandbeauty/', '_blank');
   };
 
   const services = [

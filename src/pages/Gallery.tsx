@@ -197,7 +197,7 @@ const Gallery = () => {
               Book your appointment today and experience our premium nail services
             </p>
             <button
-              onClick={() => window.open('https://www.fresha.com/lvp/goddess-of-nails-beauty-lonsdale-street-melbourne-JQlWq4', '_blank')}
+              onClick={() => window.open('https://www.instagram.com/goddessofnailsandbeauty/', '_blank')}
               className="px-12 py-4 bg-charcoal text-cream rounded-full hover:bg-brown transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 text-lg font-light tracking-wider uppercase"
             >
               BOOK NOW

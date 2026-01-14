@@ -96,7 +96,7 @@ const Home = () => {
                 </div>
 
                 <button
-                  onClick={() => window.open('https://www.fresha.com/a/studio-april-melbourne-68-mollison-street-pm249xrk/booking', '_blank')}
+                  onClick={() => window.open('https://www.instagram.com/goddessofnailsandbeauty/', '_blank')}
                   className="mt-2 px-8 md:px-10 py-3 md:py-4 bg-brown text-cream rounded-full hover:bg-brown/90 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 text-sm md:text-base font-normal"
                 >
                   Shop Now
@@ -538,7 +538,7 @@ const Home = () => {
 
               {/* Explore Button */}
               <button
-                onClick={() => window.open('https://www.fresha.com/a/studio-april-melbourne-68-mollison-street-pm249xrk/booking', '_blank')}
+                onClick={() => window.open('https://www.instagram.com/goddessofnailsandbeauty/', '_blank')}
                 className="px-6 md:px-8 py-2.5 md:py-3 bg-brown text-cream rounded-full hover:bg-brown/90 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 text-sm md:text-base"
               >
                 EXPLORE
