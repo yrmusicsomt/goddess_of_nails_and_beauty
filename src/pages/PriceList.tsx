@@ -40,72 +40,6 @@ const PriceList = () => {
         </div>
       </section>
 
-      {/* Waxing Section */}
-      <section className="py-12 md:py-16 border-t border-charcoal/10">
-        <div className="max-w-5xl mx-auto px-6 lg:px-12">
-          <motion.div className="text-center mb-12" {...fadeInUp}>
-            <h2 className="text-4xl md:text-5xl font-light italic mb-4" style={{ fontFamily: 'Georgia, serif' }}>
-              Silky Smooth Waxing
-            </h2>
-            <div className="w-full h-px bg-charcoal/30 mb-8"></div>
-          </motion.div>
-
-          {/* Female Waxing */}
-          <motion.div className="mb-12" {...fadeInUp}>
-            <h3 className="text-2xl font-light mb-6">FEMALE WAXING</h3>
-            <div className="space-y-6">
-              {[
-                { name: 'Eyebrows', price: 15 },
-                { name: 'Chin', price: 12 },
-                { name: 'Lip', price: 10 },
-                { name: 'Full Face', price: 40 },
-                { name: 'Under Arms', price: 18 },
-                { name: 'Half Arms', price: 25 },
-                { name: 'Full Arms', price: 35 },
-                { name: 'Bikini', price: 20 },
-                { name: 'G-String', price: 30 },
-                { name: 'Brazilian', price: 40 },
-                { name: 'Half Legs Lower', price: 30 },
-                { name: 'Half Legs Upper', price: 35 },
-                { name: 'Full Legs', price: 55 },
-                { name: 'Upper Half Legs & Bikini', price: 50 },
-                { name: 'Full Legs & Bikini', price: 70 },
-              ].map((service, index) => (
-                <div key={index} className="flex justify-between items-center border-b border-charcoal/10 pb-4">
-                  <h4 className="text-base md:text-lg font-medium">{service.name}</h4>
-                  <p className="text-lg font-medium">${service.price}</p>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-
-          {/* Male Waxing */}
-          <motion.div {...fadeInUp}>
-            <h3 className="text-2xl font-light mb-6">MALE WAXING</h3>
-            <div className="space-y-6">
-              {[
-                { name: 'Eyebrows', price: 20 },
-                { name: 'Chin', price: 15 },
-                { name: 'Lip', price: 10 },
-                { name: 'Full Face', price: 45 },
-                { name: 'Under Arms', price: 25 },
-                { name: 'Half Arms', price: 30 },
-                { name: 'Full Arms', price: 40 },
-                { name: 'Full Legs', price: 60 },
-                { name: 'Full Back', price: 45 },
-                { name: 'Chest', price: 45 },
-                { name: 'Shoulders', price: 20 },
-              ].map((service, index) => (
-                <div key={index} className="flex justify-between items-center border-b border-charcoal/10 pb-4">
-                  <h4 className="text-base md:text-lg font-medium">{service.name}</h4>
-                  <p className="text-lg font-medium">${service.price}</p>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
       {/* Spa Pedicure Section */}
       <section className="py-12 md:py-16 border-t border-charcoal/10">
         <div className="max-w-5xl mx-auto px-6 lg:px-12">
@@ -296,6 +230,72 @@ const PriceList = () => {
                 <p className="text-lg font-medium">${service.price}</p>
               </div>
             ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Waxing Section */}
+      <section className="py-12 md:py-16 border-t border-charcoal/10">
+        <div className="max-w-5xl mx-auto px-6 lg:px-12">
+          <motion.div className="text-center mb-12" {...fadeInUp}>
+            <h2 className="text-4xl md:text-5xl font-light italic mb-4" style={{ fontFamily: 'Georgia, serif' }}>
+              Silky Smooth Waxing
+            </h2>
+            <div className="w-full h-px bg-charcoal/30 mb-8"></div>
+          </motion.div>
+
+          {/* Female Waxing */}
+          <motion.div className="mb-12" {...fadeInUp}>
+            <h3 className="text-2xl font-light mb-6">FEMALE WAXING</h3>
+            <div className="space-y-6">
+              {[
+                { name: 'Eyebrows', price: 15 },
+                { name: 'Chin', price: 12 },
+                { name: 'Lip', price: 10 },
+                { name: 'Full Face', price: 40 },
+                { name: 'Under Arms', price: 18 },
+                { name: 'Half Arms', price: 25 },
+                { name: 'Full Arms', price: 35 },
+                { name: 'Bikini', price: 20 },
+                { name: 'G-String', price: 30 },
+                { name: 'Brazilian', price: 40 },
+                { name: 'Half Legs Lower', price: 30 },
+                { name: 'Half Legs Upper', price: 35 },
+                { name: 'Full Legs', price: 55 },
+                { name: 'Upper Half Legs & Bikini', price: 50 },
+                { name: 'Full Legs & Bikini', price: 70 },
+              ].map((service, index) => (
+                <div key={index} className="flex justify-between items-center border-b border-charcoal/10 pb-4">
+                  <h4 className="text-base md:text-lg font-medium">{service.name}</h4>
+                  <p className="text-lg font-medium">${service.price}</p>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* Male Waxing */}
+          <motion.div {...fadeInUp}>
+            <h3 className="text-2xl font-light mb-6">MALE WAXING</h3>
+            <div className="space-y-6">
+              {[
+                { name: 'Eyebrows', price: 20 },
+                { name: 'Chin', price: 15 },
+                { name: 'Lip', price: 10 },
+                { name: 'Full Face', price: 45 },
+                { name: 'Under Arms', price: 25 },
+                { name: 'Half Arms', price: 30 },
+                { name: 'Full Arms', price: 40 },
+                { name: 'Full Legs', price: 60 },
+                { name: 'Full Back', price: 45 },
+                { name: 'Chest', price: 45 },
+                { name: 'Shoulders', price: 20 },
+              ].map((service, index) => (
+                <div key={index} className="flex justify-between items-center border-b border-charcoal/10 pb-4">
+                  <h4 className="text-base md:text-lg font-medium">{service.name}</h4>
+                  <p className="text-lg font-medium">${service.price}</p>
+                </div>
+              ))}
+            </div>
           </motion.div>
         </div>
       </section>
