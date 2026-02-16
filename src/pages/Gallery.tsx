@@ -1,21 +1,18 @@
 import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
-import gg1 from '../assets/images/gg1.webp';
-import gg2 from '../assets/images/gg2.webp';
-import gg3 from '../assets/images/gg3.webp';
-import gg4 from '../assets/images/gg4.webp';
-import gg5 from '../assets/images/gg5.webp';
-import gg6 from '../assets/images/gg6.webp';
-import gg7 from '../assets/images/gg7.webp';
-import gg8 from '../assets/images/gg8.webp';
-import gg9 from '../assets/images/gg9.webp';
-import gg10 from '../assets/images/gg10.webp';
-import gg11 from '../assets/images/gg11.webp';
-import gg12 from '../assets/images/gg12.webp';
-import gg13 from '../assets/images/gg13.webp';
-import gg14 from '../assets/images/gg14.webp';
-import gg15 from '../assets/images/gg15.webp';
-import gg16 from '../assets/images/gg16.webp';
+import god1 from '../assets/images/gallery/god1.JPG';
+import god2 from '../assets/images/gallery/god2.JPG';
+import god3 from '../assets/images/gallery/god3.JPG';
+import god4 from '../assets/images/gallery/god4.JPG';
+import god5 from '../assets/images/gallery/god5.JPG';
+import god6 from '../assets/images/gallery/god6.JPG';
+import god7 from '../assets/images/gallery/god7.JPG';
+import god8 from '../assets/images/gallery/god8.JPG';
+import god9 from '../assets/images/gallery/god9.JPG';
+import god10 from '../assets/images/gallery/god10.JPG';
+import god11 from '../assets/images/gallery/god11.JPG';
+import god12 from '../assets/images/gallery/god12.JPG';
+import god13 from '../assets/images/gallery/god13.JPG';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
@@ -27,22 +24,19 @@ const fadeInUp = {
 const Gallery = () => {
   // Gallery images
   const galleryImages = [
-    { id: 1, src: gg1, alt: 'Nail art 1' },
-    { id: 2, src: gg2, alt: 'Nail art 2' },
-    { id: 3, src: gg3, alt: 'Nail art 3' },
-    { id: 4, src: gg4, alt: 'Nail art 4' },
-    { id: 5, src: gg5, alt: 'Nail art 5' },
-    { id: 6, src: gg6, alt: 'Nail art 6' },
-    { id: 7, src: gg7, alt: 'Nail art 7' },
-    { id: 8, src: gg8, alt: 'Nail art 8' },
-    { id: 9, src: gg9, alt: 'Nail art 9' },
-    { id: 10, src: gg10, alt: 'Nail art 10' },
-    { id: 11, src: gg11, alt: 'Nail art 11' },
-    { id: 12, src: gg12, alt: 'Nail art 12' },
-    { id: 13, src: gg13, alt: 'Nail art 13' },
-    { id: 14, src: gg14, alt: 'Nail art 14' },
-    { id: 15, src: gg15, alt: 'Nail art 15' },
-    { id: 16, src: gg16, alt: 'Nail art 16' },
+    { id: 1, src: god1, alt: 'Nail art 1' },
+    { id: 2, src: god2, alt: 'Nail art 2' },
+    { id: 3, src: god3, alt: 'Nail art 3' },
+    { id: 4, src: god4, alt: 'Nail art 4' },
+    { id: 5, src: god5, alt: 'Nail art 5' },
+    { id: 6, src: god6, alt: 'Nail art 6' },
+    { id: 7, src: god7, alt: 'Nail art 7' },
+    { id: 8, src: god8, alt: 'Nail art 8' },
+    { id: 9, src: god9, alt: 'Nail art 9' },
+    { id: 10, src: god10, alt: 'Nail art 10' },
+    { id: 11, src: god11, alt: 'Nail art 11' },
+    { id: 12, src: god12, alt: 'Nail art 12' },
+    { id: 13, src: god13, alt: 'Nail art 13' },
   ];
 
   // Customer reviews
