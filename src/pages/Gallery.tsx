@@ -7,8 +7,6 @@ import god4 from '../assets/images/gallery/god4.JPG';
 import god5 from '../assets/images/gallery/god5.JPG';
 import god6 from '../assets/images/gallery/god6.JPG';
 import god7 from '../assets/images/gallery/god7.JPG';
-import god8 from '../assets/images/gallery/god8.JPG';
-import god9 from '../assets/images/gallery/god9.JPG';
 import god10 from '../assets/images/gallery/god10.JPG';
 import god11 from '../assets/images/gallery/god11.JPG';
 import god12 from '../assets/images/gallery/god12.JPG';
@@ -31,12 +29,10 @@ const Gallery = () => {
     { id: 5, src: god5, alt: 'Nail art 5' },
     { id: 6, src: god6, alt: 'Nail art 6' },
     { id: 7, src: god7, alt: 'Nail art 7' },
-    { id: 8, src: god8, alt: 'Nail art 8' },
-    { id: 9, src: god9, alt: 'Nail art 9' },
-    { id: 10, src: god10, alt: 'Nail art 10' },
-    { id: 11, src: god11, alt: 'Nail art 11' },
-    { id: 12, src: god12, alt: 'Nail art 12' },
-    { id: 13, src: god13, alt: 'Nail art 13' },
+    { id: 8, src: god10, alt: 'Nail art 8' },
+    { id: 9, src: god11, alt: 'Nail art 9' },
+    { id: 10, src: god12, alt: 'Nail art 10' },
+    { id: 11, src: god13, alt: 'Nail art 11' },
   ];
 
   // Customer reviews
