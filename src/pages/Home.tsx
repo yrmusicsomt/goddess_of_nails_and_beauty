@@ -464,7 +464,7 @@ const Home = () => {
 
               {/* Service Items */}
               <div className="space-y-5 md:space-y-6 mb-6 md:mb-8">
-                {/* BIAB Manicure */}
+                {/* Goddess Manicure */}
                 <motion.div
                   className="border-b border-charcoal/10 pb-5 md:pb-6"
                   variants={staggerItem}
@@ -473,22 +473,18 @@ const Home = () => {
                   viewport={{ once: true }}
                 >
                   <div className="flex justify-between items-start mb-2 gap-4">
-                    <h3 className="text-sm md:text-base lg:text-lg font-medium flex-1">BUILDER GEL (BIAB) MANICURE</h3>
+                    <h3 className="text-sm md:text-base lg:text-lg font-medium flex-1">GODDESS MANICURE</h3>
                     <div className="text-right flex-shrink-0">
-                      <p className="text-brown font-medium text-base md:text-lg">$85</p>
-                      <p className="text-xs md:text-sm text-charcoal/60">75mins</p>
+                      <p className="text-brown font-medium text-base md:text-lg">$40</p>
                     </div>
                   </div>
                   <p className="text-xs md:text-sm text-charcoal/70 leading-relaxed">
-                    If you have damaged, thin nails, are a nail biter or you struggle to grow your nails
-                    then a super gel manicure is the perfect option for you. A builder gel is applied over
-                    your natural nail to add the extra strength and durability to your nails supporting them
-                    to grow. Expect 3 to 4 weeks flawless wear. This service includes a full signature manicure
-                    with detailed cuticle work, massage and gel polish colour of your choice (if desired).
+                    Cuticle care, deep exfoliation, massage, mask, 100% organic Argan Oil, shape & polish.
+                    A complete pampering experience for beautiful, healthy nails.
                   </p>
                 </motion.div>
 
-                {/* BIAB Rebalance */}
+                {/* Bio-Gel with Deluxe Manicure */}
                 <motion.div
                   className="border-b border-charcoal/10 pb-5 md:pb-6"
                   variants={staggerItem}
@@ -498,19 +494,18 @@ const Home = () => {
                   transition={{ delay: 0.1 }}
                 >
                   <div className="flex justify-between items-start mb-2 gap-4">
-                    <h3 className="text-sm md:text-base lg:text-lg font-medium flex-1">BUILDER GEL (BIAB) MANICURE REBALANCE</h3>
+                    <h3 className="text-sm md:text-base lg:text-lg font-medium flex-1">BIO-GEL WITH DELUXE MANICURE</h3>
                     <div className="text-right flex-shrink-0">
-                      <p className="text-brown font-medium text-base md:text-lg">$95</p>
-                      <p className="text-xs md:text-sm text-charcoal/60">90mins</p>
+                      <p className="text-brown font-medium text-base md:text-lg">$75</p>
                     </div>
                   </div>
                   <p className="text-xs md:text-sm text-charcoal/70 leading-relaxed">
-                    Re-balance and refresh your BIAB Manicure so it looks as good as new again. This service
-                    includes detailed e-file cuticle care, massage and a gel polish colour of your choice (if desired).
+                    Our Bio-Sculpture & EVO oxygenating gel paired with a deluxe manicure for long-lasting,
+                    breathable nails that promote natural nail health.
                   </p>
                 </motion.div>
 
-                {/* Extensions */}
+                {/* Gel X */}
                 <motion.div
                   className="pb-5 md:pb-6"
                   variants={staggerItem}
@@ -520,18 +515,14 @@ const Home = () => {
                   transition={{ delay: 0.2 }}
                 >
                   <div className="flex justify-between items-start mb-2 gap-4">
-                    <h3 className="text-sm md:text-base lg:text-lg font-medium flex-1">EXTENSIONS</h3>
+                    <h3 className="text-sm md:text-base lg:text-lg font-medium flex-1">GEL X EXTENSIONS</h3>
                     <div className="text-right flex-shrink-0">
-                      <p className="text-brown font-medium text-base md:text-lg">$130</p>
-                      <p className="text-xs md:text-sm text-charcoal/60">2hours</p>
+                      <p className="text-brown font-medium text-base md:text-lg">from $75</p>
                     </div>
                   </div>
-                  <p className="text-xs md:text-sm text-charcoal/70 leading-relaxed mb-2">
-                    Add length to your natural nails with either tips or full cover extensions. This service
-                    includes our cuticle care and gel colour of your choice.
-                  </p>
                   <p className="text-xs md:text-sm text-charcoal/70 leading-relaxed">
-                    Please Add On: Extra Long Nails if you desire an extra long look (8mm past the free edge or more).
+                    Soft gel nail extensions for a natural, lightweight feel with beautiful length.
+                    Available in XS/S/M ($75) and L/XL ($85).
                   </p>
                 </motion.div>
               </div>
