@@ -528,12 +528,12 @@ const Home = () => {
               </div>
 
               {/* Explore Button */}
-              <button
-                onClick={() => window.open('https://www.instagram.com/goddessofnailsandbeauty/', '_blank')}
-                className="px-6 md:px-8 py-2.5 md:py-3 bg-brown text-cream rounded-full hover:bg-brown/90 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 text-sm md:text-base"
+              <a
+                href="/price-list"
+                className="inline-block px-6 md:px-8 py-2.5 md:py-3 bg-brown text-cream rounded-full hover:bg-brown/90 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5 text-sm md:text-base"
               >
                 EXPLORE
-              </button>
+              </a>
             </motion.div>
 
             {/* Right - Image with decorative elements */}
