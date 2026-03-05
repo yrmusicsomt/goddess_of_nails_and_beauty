@@ -4,7 +4,7 @@ import g2 from '../assets/images/g4.webp';
 import g3 from '../assets/images/lash.webp';
 import g4 from '../assets/images/beautytreatment.jpg';
 import g6 from '../assets/images/g6.webp';
-import g7 from '../assets/images/g7.webp';
+import g7 from '../assets/images/gallery/god5.JPG';
 import nailPolish1 from '../assets/images/nail-polish-1.png';
 import nailPolish2 from '../assets/images/nail-polish-2.png';
 import nailPolish3 from '../assets/images/nail-polish-3.png';
