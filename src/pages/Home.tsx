@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
-import g2 from '../assets/images/g2.webp';
+import g2 from '../assets/images/g4.webp';
 import g3 from '../assets/images/lash.webp';
 import g4 from '../assets/images/beautytreatment.jpg';
 import g6 from '../assets/images/g6.webp';
