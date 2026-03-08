@@ -1,18 +1,14 @@
 import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
-import g2 from '../assets/images/g4.webp';
+import g2 from '../assets/images/gallery/god10.JPG';
 import g3 from '../assets/images/lash.webp';
 import g4 from '../assets/images/beautytreatment.jpg';
-import g6 from '../assets/images/g6.webp';
+import g6 from '../assets/images/gallery/god6.JPG';
 import g7 from '../assets/images/gallery/god5.JPG';
-import nailPolish1 from '../assets/images/nail-polish-1.png';
-import nailPolish2 from '../assets/images/nail-polish-2.png';
-import nailPolish3 from '../assets/images/nail-polish-3.png';
-import nailPolish4 from '../assets/images/nail-polish-4.png';
 import glitter from '../assets/images/glitter.png';
 import glitter2 from '../assets/images/glitter2.png';
-import nailpic5 from '../assets/images/nailpic5.png';
-import bannerpic1 from '../assets/images/bannerpic1.png';
+import nailpic5 from '../assets/images/gallery/god11.JPG';
+import bannerpic1 from '../assets/images/gallery/god2.JPG';
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
   whileInView: { opacity: 1, y: 0 },
@@ -116,7 +112,7 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-12">
             {/* Natural Ingredients */}
             <motion.div
-              className="bg-[#fdf3e6] rounded-3xl p-8 md:p-10 text-center"
+              className="bg-[#EDE5DA] rounded-3xl p-8 md:p-10 text-center"
               variants={staggerItem}
               initial="initial"
               whileInView="whileInView"
@@ -134,7 +130,7 @@ const Home = () => {
 
             {/* Allergy Tested */}
             <motion.div
-              className="bg-[#fdf3e6] rounded-3xl p-8 md:p-10 text-center"
+              className="bg-[#EDE5DA] rounded-3xl p-8 md:p-10 text-center"
               variants={staggerItem}
               initial="initial"
               whileInView="whileInView"
@@ -152,7 +148,7 @@ const Home = () => {
 
             {/* Fragrance Free */}
             <motion.div
-              className="bg-[#fdf3e6] rounded-3xl p-8 md:p-10 text-center"
+              className="bg-[#EDE5DA] rounded-3xl p-8 md:p-10 text-center"
               variants={staggerItem}
               initial="initial"
               whileInView="whileInView"
@@ -170,7 +166,7 @@ const Home = () => {
 
             {/* Paraben Free */}
             <motion.div
-              className="bg-[#fdf3e6] rounded-3xl p-8 md:p-10 text-center"
+              className="bg-[#EDE5DA] rounded-3xl p-8 md:p-10 text-center"
               variants={staggerItem}
               initial="initial"
               whileInView="whileInView"
@@ -221,7 +217,7 @@ const Home = () => {
           >
             {/* Service 1 - Tilted Left */}
             <motion.div
-              className="bg-[#f0ebe3] rounded-3xl overflow-hidden group transform md:-rotate-3 transition-all duration-300 hover:rotate-0"
+              className="bg-[#E8E0D5] rounded-3xl overflow-hidden group transform md:-rotate-3 transition-all duration-300 hover:rotate-0"
               variants={staggerItem}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
@@ -235,7 +231,7 @@ const Home = () => {
 
             {/* Service 2 - Center (No Tilt) */}
             <motion.div
-              className="bg-[#f0ebe3] rounded-3xl overflow-hidden group"
+              className="bg-[#E8E0D5] rounded-3xl overflow-hidden group"
               variants={staggerItem}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
@@ -249,7 +245,7 @@ const Home = () => {
 
             {/* Service 3 - Tilted Right */}
             <motion.div
-              className="bg-[#f0ebe3] rounded-3xl overflow-hidden group transform md:rotate-3 transition-all duration-300 hover:rotate-0"
+              className="bg-[#E8E0D5] rounded-3xl overflow-hidden group transform md:rotate-3 transition-all duration-300 hover:rotate-0"
               variants={staggerItem}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
@@ -362,93 +358,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      {/* Mix & Match Polishes Section */}
-      <motion.section
-        className="py-12 md:py-16 bg-[#fdf3e6]"
-        {...fadeInUp}
-      >
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif font-normal text-center mb-8 md:mb-12">
-            Mix & Match Polishes
-          </h2>
-          <motion.div
-            className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8"
-            variants={staggerContainer}
-            initial="initial"
-            whileInView="whileInView"
-            viewport={{ once: true, margin: "-100px" }}
-          >
-            {/* Base Coat */}
-            <motion.div
-              className="text-center"
-              variants={staggerItem}
-              transition={{ duration: 0.5, delay: 0.1 }}
-            >
-              <div className="flex justify-center mb-3 md:mb-4">
-                <img
-                  src={nailPolish1}
-                  alt="Base Coat"
-                  className="h-32 md:h-48 w-auto object-contain transition-transform duration-300 hover:scale-110"
-                />
-              </div>
-              <h3 className="text-base md:text-lg font-serif font-normal mb-1 uppercase tracking-wide text-charcoal">Base Coat</h3>
-              <p className="text-charcoal/70 text-xs">Film protector / No.01 oz</p>
-            </motion.div>
-
-            {/* Gel Polish */}
-            <motion.div
-              className="text-center"
-              variants={staggerItem}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              <div className="flex justify-center mb-3 md:mb-4">
-                <img
-                  src={nailPolish2}
-                  alt="Gel Polish"
-                  className="h-32 md:h-48 w-auto object-contain transition-transform duration-300 hover:scale-110"
-                />
-              </div>
-              <h3 className="text-base md:text-lg font-serif font-normal mb-1 uppercase tracking-wide text-charcoal">Gel Polish</h3>
-              <p className="text-charcoal/70 text-xs">Sunset Pink / No.01 oz</p>
-            </motion.div>
-
-            {/* Top Coat */}
-            <motion.div
-              className="text-center"
-              variants={staggerItem}
-              transition={{ duration: 0.5, delay: 0.3 }}
-            >
-              <div className="flex justify-center mb-3 md:mb-4">
-                <img
-                  src={nailPolish3}
-                  alt="Top Coat"
-                  className="h-32 md:h-48 w-auto object-contain transition-transform duration-300 hover:scale-110"
-                />
-              </div>
-              <h3 className="text-base md:text-lg font-serif font-normal mb-1 uppercase tracking-wide text-charcoal">Top Coat</h3>
-              <p className="text-charcoal/70 text-xs">Summer Rouge / No.01 oz</p>
-            </motion.div>
-
-            {/* Matte Polish */}
-            <motion.div
-              className="text-center"
-              variants={staggerItem}
-              transition={{ duration: 0.5, delay: 0.4 }}
-            >
-              <div className="flex justify-center mb-3 md:mb-4">
-                <img
-                  src={nailPolish4}
-                  alt="Matte Polish"
-                  className="h-32 md:h-48 w-auto object-contain transition-transform duration-300 hover:scale-110"
-                />
-              </div>
-              <h3 className="text-base md:text-lg font-serif font-normal mb-1 uppercase tracking-wide text-charcoal">Matte Polish</h3>
-              <p className="text-charcoal/70 text-xs">Blue Pottery / No.01 oz</p>
-            </motion.div>
-          </motion.div>
-        </div>
-      </motion.section>
 
       {/* Treatments & Prices Section */}
       <section className="relative bg-cream py-12 md:py-16">
@@ -602,7 +511,7 @@ const Home = () => {
                 </div>
                 <div className="flex gap-1">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={16} fill="#8f5d46" color="#8f5d46" />
+                    <Star key={i} size={16} fill="#8B6F4E" color="#8B6F4E" />
                   ))}
                 </div>
               </div>
@@ -629,7 +538,7 @@ const Home = () => {
                 </div>
                 <div className="flex gap-1">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={16} fill="#8f5d46" color="#8f5d46" />
+                    <Star key={i} size={16} fill="#8B6F4E" color="#8B6F4E" />
                   ))}
                 </div>
               </div>

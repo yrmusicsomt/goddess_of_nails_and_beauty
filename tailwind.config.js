@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        cream: '#fdfdf1',
-        brown: '#301e14',
-        charcoal: '#361d1b',
+        cream: '#F5F0EB',
+        brown: '#8B6F4E',
+        charcoal: '#3D2B1F',
       },
       fontFamily: {
-        sans: ['Playfair Display', 'Georgia', 'serif'],
-        serif: ['Playfair Display', 'Georgia', 'serif'],
+        sans: ['Cormorant Garamond', 'Georgia', 'serif'],
+        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
       },
     },
   },

@@ -170,7 +170,7 @@ const NailServiceOptions = () => {
                         {service.name}
                       </h3>
                       {service.duration && (
-                        <span className="inline-flex items-center gap-1 px-3 py-1 bg-[#fdf3e6] text-brown text-sm rounded-full">
+                        <span className="inline-flex items-center gap-1 px-3 py-1 bg-[#EDE5DA] text-brown text-sm rounded-full">
                           <Clock className="w-4 h-4" />
                           {service.duration}
                         </span>
@@ -196,7 +196,7 @@ const NailServiceOptions = () => {
           </div>
 
           {/* How Long Section */}
-          <motion.div className="bg-[#fdf3e6] rounded-lg p-8 mb-12 border border-brown/20" {...fadeInUp}>
+          <motion.div className="bg-[#EDE5DA] rounded-lg p-8 mb-12 border border-brown/20" {...fadeInUp}>
             <h2 className="text-2xl md:text-3xl font-light mb-4 text-charcoal">
               HOW LONG WILL MY NAILS LAST?
             </h2>
@@ -262,7 +262,7 @@ const NailServiceOptions = () => {
           </div>
 
           {/* Final Message */}
-          <motion.div className="mt-8 p-6 bg-[#fdf3e6] rounded-lg text-center border border-brown/20" {...fadeInUp}>
+          <motion.div className="mt-8 p-6 bg-[#EDE5DA] rounded-lg text-center border border-brown/20" {...fadeInUp}>
             <p className="text-xl font-medium text-charcoal mb-2">ALL DONE!</p>
             <p className="text-charcoal/80">Thanks for booking, see you at Goddess of Nails and Beauty!</p>
           </motion.div>
@@ -341,7 +341,7 @@ const NailServiceOptions = () => {
 
           {/* How Long Will Your Wax Last */}
           <motion.div {...fadeInUp}>
-            <div className="bg-[#fdf3e6] rounded-lg p-8 border border-brown/20">
+            <div className="bg-[#EDE5DA] rounded-lg p-8 border border-brown/20">
               <h3 className="text-2xl font-medium mb-4 text-charcoal">
                 How Long Will Your Wax Last?
               </h3>

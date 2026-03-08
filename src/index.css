@@ -9,11 +9,11 @@
 
   body {
     @apply bg-cream text-charcoal font-serif;
-    background-color: #fdfdf1;
+    background-color: #F5F0EB;
   }
 
   #root {
-    background-color: #fdfdf1;
+    background-color: #F5F0EB;
   }
 }
 

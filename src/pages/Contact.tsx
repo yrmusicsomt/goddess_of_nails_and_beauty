@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
-import nailpic6 from '../assets/images/nailpic6.png';
+import god11 from '../assets/images/gallery/god11.JPG';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
@@ -33,9 +33,9 @@ const Contact = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
               <img
-                src={nailpic6}
-                alt="Studio April Contact"
-                className="w-full h-auto object-contain"
+                src={god11}
+                alt="Goddess of Nails and Beauty"
+                className="w-full h-auto object-cover rounded-2xl"
                 style={{ filter: 'drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1))' }}
               />
             </motion.div>

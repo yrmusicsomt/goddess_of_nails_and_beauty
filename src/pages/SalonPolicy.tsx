@@ -94,7 +94,7 @@ const SalonPolicy = () => {
         </div>
 
         {/* Footer Message */}
-        <div className="mt-12 p-8 bg-[#fdf3e6] rounded-lg text-center border border-brown/20">
+        <div className="mt-12 p-8 bg-[#EDE5DA] rounded-lg text-center border border-brown/20">
           <p className="text-lg text-charcoal/90 italic">
             Thank you for respecting our policies. Our goal is to provide a safe, professional, and comfortable experience for all clients.
           </p>
