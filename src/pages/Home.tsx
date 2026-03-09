@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
 import g2 from '../assets/images/gallery/god10.JPG';
-import g3 from '../assets/images/lash.webp';
+import g3 from '../assets/images/lashset.jpg';
 import g4 from '../assets/images/beautytreatment.jpg';
 import g6 from '../assets/images/gallery/god6.JPG';
 import g7 from '../assets/images/gallery/god5.JPG';
@@ -236,10 +236,10 @@ const Home = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <div className="transition-transform duration-300 group-hover:scale-105">
-                <img src={g3} alt="Lash Extensions" className="w-full h-80 object-cover" />
+                <img src={g3} alt="Lash Sets" className="w-full h-80 object-cover" />
               </div>
               <div className="p-6 md:p-8">
-                <h3 className="text-base md:text-lg font-serif font-normal text-center text-charcoal">Lash Extensions</h3>
+                <h3 className="text-base md:text-lg font-serif font-normal text-center text-charcoal">Lash Sets</h3>
               </div>
             </motion.div>
 
